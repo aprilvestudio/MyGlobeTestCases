@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Globe MyAccounts" parallel="none">
+	<parameter name="appURL" value="http://www.globe.com.ph/" />
+	<parameter name="browserType" value="chrome" />
+	<test name="Globe test">
+		<classes>
+
+			<class name="com.xes.globe.automation.tests.GlobeLoginTest" />
+            <class name="com.xes.globe.automation.tests.AddAccount_Test" />
+            
+		</classes>
+
+	</test>
+
+</suite>
