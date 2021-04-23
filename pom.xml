@@ -31,9 +31,7 @@
 		<resources>
 			<resource>
 				<directory>src/test/java/</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
+			
 			</resource>
 		</resources>
 
