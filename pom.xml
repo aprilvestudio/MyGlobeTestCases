@@ -23,7 +23,7 @@
     
     
     </plugins>
-		<sourceDirectory>src/main/java/</sourceDirectory>
+		<sourceDirectory>src/test/java/</sourceDirectory>
 		<resources>
 			<resource>
 				<directory>src/test/java/</directory>
@@ -74,13 +74,14 @@
 			<version>1.5.4</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
-			<scope>compile</scope>
-		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>7.4.0</version>
+		<scope>compile</scope>
+	</dependency>
+
 
 
 		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
