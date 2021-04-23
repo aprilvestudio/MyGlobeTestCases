@@ -79,6 +79,7 @@
 		<groupId>org.testng</groupId>
 		<artifactId>testng</artifactId>
 		<version>7.4.0</version>
+		<scope>compile</scope>
 	</dependency>
 
 
@@ -88,7 +89,7 @@
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
 			<version>1.1.4</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
