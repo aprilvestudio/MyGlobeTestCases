@@ -18,7 +18,7 @@
 					<executable>C:\Program Files\Java\jdk-13.0.2\bin\javac</executable>
  <suiteXmlFiles>
 
-	<suiteXmlFile>/Globe MyAccounts/testng.xml</suiteXmlFile>
+	<suiteXmlFile>C:\Users\April\Documents\PENG\workspace\Globe MyAccounts\testng.xml</suiteXmlFile>
 
 </suiteXmlFiles>
 				</configuration>
