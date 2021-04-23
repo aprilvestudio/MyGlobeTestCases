@@ -6,7 +6,23 @@
 	<artifactId>GlobeMyAccounts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-
+    <plugins>
+    <plugin>
+     <groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>3.8.1</version>
+		<configuration>
+		<source>13</source>
+		<target>13</target>
+		<fork>true</fork>
+		<executable>C:\Program Files\Java\jdk-13.0.2\bin\javac</executable>
+		
+		</configuration>
+    
+    </plugin>
+    
+    
+    </plugins>
 		<sourceDirectory>src/test/java/</sourceDirectory>
 		<resources>
 			<resource>
@@ -16,18 +32,18 @@
 				</excludes>
 			</resource>
 		</resources>
-
 		
 	</build>
 
 	<dependencies>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.8.1</version>
-</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+	<dependency>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>3.8.1</version>
+		
+	</dependency>
 
 	
 		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
@@ -91,9 +107,5 @@
 
 
 	</dependencies>
-	<properties>
-		<java.version>13.2</java.version>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
+
 </project>
